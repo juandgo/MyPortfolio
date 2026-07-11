@@ -91,6 +91,12 @@ h1 {
     border: 3px solid orange;
 }
 
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 767px) {
