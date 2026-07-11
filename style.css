@@ -27,10 +27,19 @@ h1 {
     background-color: #1b1b32;
 }
 
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
 .seccion-titulo{
     font-size: 2rem;
     padding: 15px 0;
     font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
 }
 
 /* Seccion Hero */
@@ -68,6 +77,18 @@ h1 {
 .sobre-mi .contenedor {
     max-width: 600px;
     text-align: center;
+}
+
+/* Experiencia */
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia .row div {
+    height: 250px;
+    background-color: purple;
+    border: 3px solid orange;
 }
 
 /* Adaptable (Responsivo) */
