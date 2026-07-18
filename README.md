@@ -45,9 +45,5 @@ El texto de la página web está escrito en español, al igual que las clases y 
 
 ## Proyecto en vivo
 
-Puedes acceder al proyecto en vivo en: https://estefaniacn.github.io/portafolio-adaptable-bootstrap/
+Puedes acceder al proyecto en vivo en: https://juandgo.github.io/MyPortfolio
 
-
-## Curso en YouTube
-
-Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita en el canal de YouTube de [freeCodeCamp en Español](https://www.youtube.com/freecodecampespanol).
