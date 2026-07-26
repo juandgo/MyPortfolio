@@ -40,13 +40,13 @@
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                        <a class="nav-link active" aria-current="page" href="#about-me">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="#proyects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" href="Testimony.html">Testimonios</a>
+                        <a class="nav-link" aria-disabled="true" href="#testimony-carousel">Testimonios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-disabled="true" href="contact.html">Contactos</a>
@@ -80,7 +80,7 @@
     </section>
 
     <!-- Sobre mi -->
-    <section class="sobre-mi seccion-oscura">
+    <section id="about-me" class="sobre-mi seccion-oscura">
         <div class="contenedor">
             <h2 class="seccion-titulo texto-blanco">About a Juan Grijalba</h2>
             <p class="seccion-texto">I am a Software Engineer focused on the complete software lifecycle, from backend
@@ -112,7 +112,6 @@
                 cloud computing technologies. <strong>Let's connect!</strong></p>
         </section>
     </section>
-
 
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
@@ -160,7 +159,7 @@
     </section>
 
     <!-- Proyectos -->
-    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section id="proyects" class="proyectos-recientes seccion-clara d-flex flex-column">
         <h2 class="seccion-titula texto-negro">Mis proyectos recientes</h2>
         <h3 class="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente...</h3>
         <!-- Galería de proyectos -->
@@ -284,6 +283,99 @@
         </a>
     </section>
 
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Artículos</h2>
+        <div class="card">
+            <div class="card-header">
+                Más recientes
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        El decorador @property en Python - cómo usarlo, ventajas y sintaxis
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos
+                        explicadas
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más artículos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- Carrusel -->
+    <div id="testimony-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="images/cliente1.svg" alt="Foto de Gino">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis
+                        urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Gino</p>
+                        <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt="Foto de Nora">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis
+                        urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Nora</p>
+                        <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="images/cliente3.svg" alt="Foto de Leonardo">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis
+                        urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Leonardo</p>
+                        <p class="cargo">Director de AprendeAProgramar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    </section>
+
+
     <!-- Contacto -->
     <section id="contacto" class="contacto seccion-oscura">
         <div class="container">
@@ -308,9 +400,10 @@
         </div>
     </section>
 
+
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-        <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+        <img class="footer-logo" src="images/icono-blanco.svg" alt="Logo del portafolio">
         <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
         <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
             <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
