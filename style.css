@@ -48,6 +48,11 @@ h1 {
     font-size: 1.2rem;
 }
 
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
 .texto-negro {
     color: black;
 }
@@ -201,6 +206,18 @@ h1 {
 }
 
 /* Adaptable (Responsivo) */
+/* Media Querys */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
